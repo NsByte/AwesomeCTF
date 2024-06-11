@@ -11,9 +11,9 @@ I Hope you enjoy!
 The challgenge was created in a docker environment as part of the question if it was possible to do so (and it is, kinda)
 The environment contains two systems, a MySQL server and a Debian host:
 
-AwesomeCTF
-    |-----awesomectf-host
-    |-----awesomectf-mysql
+AwesomeCTF   
+    |-----awesomectf-host   
+    |-----awesomectf-mysql   
 
 The images are pre-created docker images which contain the neccesary files, applications and data.
 This repository contains the docker-compose.yml files for both x86/x64 and ARM.
