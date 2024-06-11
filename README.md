@@ -22,13 +22,14 @@ The docker-compose will pull the nsbyteone/awesomectf-host and nsbyteone/awesome
 No additional configuration is required.
 
 ## Getting started
+Steps:   
 1. git clone https://github.com/NsByte/AwesomeCTF
 2. cd AwesomeCTF
 3. docker-compose -f docker-compose.yaml up
 4. You should be able to reach two ports on your machine
 5. Enjoy!
 
-*TLDR*  
+*TLDR:*    
 git clone https://github.com/NsByte/AwesomeCTF && cd AwesomeCTF && docker-compose -f docker-compose.yaml up
 
 ## How do i win?
