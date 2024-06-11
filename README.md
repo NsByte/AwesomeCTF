@@ -29,6 +29,13 @@ Steps:
 4. You should be able to reach two ports on your machine
 5. Enjoy!
 
+Stopping the environment:
+docker-compose down 
+Starting the environment:
+docker-compose -f docker-compose.yaml up
+
+You can reset the progress by deleting the docker volume.
+
 *TLDR:*    
 git clone https://github.com/NsByte/AwesomeCTF && cd AwesomeCTF && docker-compose -f docker-compose.yaml up
 
