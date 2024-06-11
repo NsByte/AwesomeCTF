@@ -1,5 +1,5 @@
 services:
-  host:
+  ctf-host:
     container_name: ctf-host
     tty: true
     image: nsbyteone/awesomectf-host:latest
@@ -7,7 +7,7 @@ services:
       - "22:22"
       - "13371:13371"
 
-  mysql:
+  ctf-mysql:
     container_name: ctf-mysql
     image: nsbyteone/awesomectf-mysql:latest
     ports:
