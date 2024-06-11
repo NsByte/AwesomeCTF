@@ -28,7 +28,7 @@ No additional configuration is required.
 4. You should be able to reach two ports on your machine
 5. Enjoy!
 
-TLDR;
+TLDR;   
 git clone https://github.com/NsByte/AwesomeCTF && cd AwesomeCTF && docker-compose -f docker-compose.yaml up
 
 ## How do i win?
