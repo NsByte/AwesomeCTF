@@ -26,8 +26,8 @@ No additional configuration is required.
 Requirements:
 - Docker Desktop
 https://docs.docker.com/desktop/install/windows-install/
-https://docs.docker.com/desktop/install/linux-install/
-Optional:
+https://docs.docker.com/desktop/install/linux-install/   
+Optional:   
 - Git
 
 Steps (with git installed):   
