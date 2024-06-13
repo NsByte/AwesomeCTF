@@ -33,21 +33,19 @@ Optional:
 Steps (with git installed):   
 1. git clone https://github.com/NsByte/AwesomeCTF
 2. cd AwesomeCTF
-3. docker-compose -f docker-compose.yaml up
+3. docker-compose -f docker-compose.yaml up --force-recreate
 4. You should be able to reach two ports on your machine
 5. Enjoy!
 
 Steps (without git installed):
 1. Download the file https://raw.githubusercontent.com/NsByte/AwesomeCTF/main/docker-compose.yaml
-2. In that folder run 'docker-compose up'
+2. In that folder run 'docker-compose up --force-recreate'
 3. Enjoy!
 
 Stopping the environment:
 docker-compose down -v
 Starting the environment:
 docker-compose -f docker-compose.yaml up --force-recreate
-
-You can reset the progress by deleting the docker volume.
 
 *TLDR:*    
 git clone https://github.com/NsByte/AwesomeCTF && cd AwesomeCTF && docker-compose -f docker-compose.yaml up
