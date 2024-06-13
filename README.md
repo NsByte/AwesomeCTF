@@ -39,9 +39,11 @@ Steps (with git installed):
 5. Enjoy!
 
 Steps (without git installed):
+```
 1. Download the file https://raw.githubusercontent.com/NsByte/AwesomeCTF/main/docker-compose.yaml
 2. In that folder run 'docker-compose up --force-recreate'
 3. Enjoy!
+```
 
 Stopping the environment:
 docker-compose down -v
