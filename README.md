@@ -59,7 +59,7 @@ git clone https://github.com/NsByte/AwesomeCTF && cd AwesomeCTF && docker-compos
 Get access to the docker host through vulnerabilities and elevate your privileges to root!
 On this small journey you will collect some flags which can be evaluated at the end of the road.
 
-## Help me daddy im stuck
+## Help me im stuck
 Try harder
 
 Enjoy!
