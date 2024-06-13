@@ -43,9 +43,9 @@ Steps (without git installed):
 3. Enjoy!
 
 Stopping the environment:
-docker-compose down 
+docker-compose down -v
 Starting the environment:
-docker-compose -f docker-compose.yaml up
+docker-compose -f docker-compose.yaml up --force-recreate
 
 You can reset the progress by deleting the docker volume.
 
