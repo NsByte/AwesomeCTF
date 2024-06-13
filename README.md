@@ -32,11 +32,13 @@ Optional:
 - Git
 
 Steps (with git installed):   
+```
 1. git clone https://github.com/NsByte/AwesomeCTF
 2. cd AwesomeCTF
 3. docker-compose -f docker-compose.yaml up --force-recreate
 4. You should be able to reach two ports on your machine
 5. Enjoy!
+```
 
 Steps (without git installed):
 ```
